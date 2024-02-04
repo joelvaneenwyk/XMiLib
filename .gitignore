@@ -20,3 +20,20 @@ tasks.xml
 *.DotSettings.user
 qtvars_*
 temp/
+
+# Intermediate files added after VS2022 and Qt 6 upgrade
+*.tlog
+*.*.tlog
+*.obj
+moc_*.cpp
+moc_*.h
+moc_*.h.cbt
+*.log
+*.lib.recipe
+*.lib
+*.pch
+*.pdb
+*.vcxproj.FileListAbsolute.txt
+ui_*.h
+*.qtvscr
+*.h.cpp
