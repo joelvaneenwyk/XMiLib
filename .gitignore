@@ -21,9 +21,15 @@ tasks.xml
 qtvars_*
 temp/
 
+#
 # Intermediate files added after VS2022 and Qt 6 upgrade
+#
+
 debug/
 release/
+x64/
+.sarif/
+
 *.tlog
 *.*.tlog
 *.obj
