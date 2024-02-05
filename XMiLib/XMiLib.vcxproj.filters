@@ -1,204 +1,167 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="StyleSheetEditor">
-      <UniqueIdentifier>{c97abd74-4143-4488-a354-8420d3a6714c}</UniqueIdentifier>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="DebugLog">
-      <UniqueIdentifier>{199884c7-38d2-4866-9193-eba356795cb9}</UniqueIdentifier>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="ThreadedOperation">
-      <UniqueIdentifier>{4a1ba53d-a53b-404c-bbce-970085044329}</UniqueIdentifier>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Translation Files">
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
-      <Extensions>ts</Extensions>
+      <Extensions>ts;xlf</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="GlobalShortcut">
-      <UniqueIdentifier>{e3d04afe-b5e7-431d-a92d-03ab167d605c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="String">
-      <UniqueIdentifier>{3724d3f9-2047-4a44-a79d-76cea7e51944}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="File">
-      <UniqueIdentifier>{7e7cd981-feb0-4549-b403-c7e75d0881f4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Scoped">
-      <UniqueIdentifier>{2f22fc4b-2163-4bef-af3d-03759c0f3dda}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="VersionNumber">
-      <UniqueIdentifier>{c3162f21-185b-40fc-9c3c-94451060679b}</UniqueIdentifier>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Exception.h" />
-    <ClInclude Include="RandomNumberGenerator.h" />
-    <ClInclude Include="DebugLog\DebugLogEntry.h">
-      <Filter>DebugLog</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemUtils.h" />
-    <ClInclude Include="GlobalShortcut\GlobalShortcutManager.h">
-      <Filter>GlobalShortcut</Filter>
-    </ClInclude>
-    <ClInclude Include="XMiLibConstants.h" />
-    <ClInclude Include="String\StringUtils.h">
-      <Filter>String</Filter>
-    </ClInclude>
-    <ClInclude Include="String\StringListEditorModel.h">
-      <Filter>String</Filter>
-    </ClInclude>
-    <ClInclude Include="File\FileUtils.h">
-      <Filter>File</Filter>
-    </ClInclude>
-    <ClInclude Include="File\CsvIO.h">
-      <Filter>File</Filter>
-    </ClInclude>
-    <ClInclude Include="Scoped\ScopedGlobalMemoryLock.h">
-      <Filter>Scoped</Filter>
-    </ClInclude>
-    <ClInclude Include="Scoped\ScopedClipboardAccess.h">
-      <Filter>Scoped</Filter>
-    </ClInclude>
-    <ClInclude Include="VersionNumber\VersionNumber.h">
-      <Filter>VersionNumber</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Exception.cpp" />
-    <ClCompile Include="RandomNumberGenerator.cpp" />
-    <ClCompile Include="StyleSheetEditor\StyleSheetEditor.cpp">
-      <Filter>StyleSheetEditor</Filter>
-    </ClCompile>
     <ClCompile Include="DebugLog\DebugLog.cpp">
-      <Filter>DebugLog</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DebugLog\DebugLogEntry.cpp">
-      <Filter>DebugLog</Filter>
-    </ClCompile>
-    <ClCompile Include="DebugLog\DebugLogWindow.cpp">
-      <Filter>DebugLog</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DebugLog\DebugLogFilterProxyModel.cpp">
-      <Filter>DebugLog</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ThreadedOperation\ThreadedOperation.cpp">
-      <Filter>ThreadedOperation</Filter>
+    <ClCompile Include="DebugLog\DebugLogWindow.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ThreadedOperation\ThreadedOperationDialog.cpp">
-      <Filter>ThreadedOperation</Filter>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SystemUtils.cpp" />
+    <ClCompile Include="File\FileUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="GlobalShortcut\GlobalShortcut.cpp">
-      <Filter>GlobalShortcut</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GlobalShortcut\GlobalShortcutManager.cpp">
-      <Filter>GlobalShortcut</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGenerator.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="String\StringUtils.cpp">
-      <Filter>String</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="String\StringListEditorDialog.cpp">
-      <Filter>String</Filter>
+    <ClCompile Include="StyleSheetEditor\StyleSheetEditor.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="String\StringListEditorModel.cpp">
-      <Filter>String</Filter>
+    <ClCompile Include="SystemUtils.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SingleInstanceApp.cpp" />
-    <ClCompile Include="File\FileUtils.cpp">
-      <Filter>File</Filter>
+    <ClCompile Include="ThreadedOperation\ThreadedOperation.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="File\CsvIO.cpp">
-      <Filter>File</Filter>
-    </ClCompile>
-    <ClCompile Include="Scoped\ScopedGlobalMemoryLock.cpp">
-      <Filter>Scoped</Filter>
-    </ClCompile>
-    <ClCompile Include="Scoped\ScopedClipboardAccess.cpp">
-      <Filter>Scoped</Filter>
-    </ClCompile>
-    <ClCompile Include="VersionNumber\VersionNumber.cpp">
-      <Filter>VersionNumber</Filter>
+    <ClCompile Include="ThreadedOperation\ThreadedOperationDialog.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="StyleSheetEditor\StyleSheetEditor.h">
-      <Filter>StyleSheetEditor</Filter>
-    </QtMoc>
-    <QtUic Include="StyleSheetEditor\StyleSheetEditor.ui">
-      <Filter>StyleSheetEditor</Filter>
-    </QtUic>
     <QtMoc Include="DebugLog\DebugLog.h">
-      <Filter>DebugLog</Filter>
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="DebugLog\DebugLogEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="DebugLog\DebugLogFilterProxyModel.h">
+      <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="DebugLog\DebugLogWindow.h">
-      <Filter>DebugLog</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
-    <QtUic Include="DebugLog\DebugLogWindow.ui">
-      <Filter>DebugLog</Filter>
-    </QtUic>
-    <QtMoc Include="DebugLog\DebugLogFilterProxyModel.h">
-      <Filter>DebugLog</Filter>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="GlobalShortcut\GlobalShortcut.h">
+      <Filter>Header Files</Filter>
     </QtMoc>
+    <ClInclude Include="GlobalShortcut\GlobalShortcutManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="StyleSheetEditor\StyleSheetEditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SystemUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="ThreadedOperation\ThreadedOperation.h">
-      <Filter>ThreadedOperation</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="ThreadedOperation\ThreadedOperationDialog.h">
-      <Filter>ThreadedOperation</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
+    <CustomBuild Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="stdafx.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\Translations\xmilib_fr.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="DebugLog\DebugLogWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="StyleSheetEditor\StyleSheetEditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
     <QtUic Include="ThreadedOperation\ThreadedOperationDialog.ui">
-      <Filter>ThreadedOperation</Filter>
+      <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="GlobalShortcut\GlobalShortcut.h">
-      <Filter>GlobalShortcut</Filter>
-    </QtMoc>
-    <QtMoc Include="String\StringListEditorDialog.h">
-      <Filter>String</Filter>
-    </QtMoc>
-    <QtMoc Include="SingleInstanceApp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Translations\xmilib_fr_FR.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_ru_RU.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_nl_NL.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_it_IT.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_de_DE.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_pl_PL.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_pt_PT.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-    <None Include="Translations\xmilib_es_ES.ts">
-      <Filter>Translation Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="String\StringListEditorDialog.ui">
-      <Filter>String</Filter>
-    </QtUic>
-  </ItemGroup>
-  <ItemGroup>
-    <QtTranslation Include="Translations\xmilib_zh_TW.ts">
-      <Filter>Translation Files</Filter>
-    </QtTranslation>
-    <QtTranslation Include="Translations\xmilib_zh_CN.ts">
-      <Filter>Translation Files</Filter>
-    </QtTranslation>
-    <QtTranslation Include="Translations\xmilib_hu_HU.ts">
-      <Filter>Translation Files</Filter>
-    </QtTranslation>
   </ItemGroup>
 </Project>

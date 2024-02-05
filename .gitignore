@@ -22,6 +22,8 @@ qtvars_*
 temp/
 
 # Intermediate files added after VS2022 and Qt 6 upgrade
+debug/
+release/
 *.tlog
 *.*.tlog
 *.obj
@@ -37,3 +39,4 @@ moc_*.h.cbt
 ui_*.h
 *.qtvscr
 *.h.cpp
+qt.natis

@@ -1,41 +1,41 @@
-HEADERS += ./FileUtils.h \
-   ./Exception.h \
-   ./RandomNumberGenerator.h \
-   ./StringUtils.h \
-   ./StyleSheetEditor/StyleSheetEditor.h \
-   ./DebugLog/DebugLogEntry.h \
-   ./DebugLog/DebugLog.h \
-   ./DebugLog/DebugLogWindow.h \
-   ./DebugLog/DebugLogFilterProxyModel.h \
-   ./ThreadedOperation/ThreadedOperationDialog.h \
-   ./ThreadedOperation/ThreadedOperation.h \
-   ./SystemUtils.h
+HEADERS += $$PWD/File/FileUtils.h \
+   $$PWD/Exception.h \
+   $$PWD/RandomNumberGenerator.h \
+   $$PWD/StringUtils.h \
+   $$PWD/StyleSheetEditor/StyleSheetEditor.h \
+   $$PWD/DebugLog/DebugLogEntry.h \
+   $$PWD/DebugLog/DebugLog.h \
+   $$PWD/DebugLog/DebugLogWindow.h \
+   $$PWD/DebugLog/DebugLogFilterProxyModel.h \
+   $$PWD/ThreadedOperation/ThreadedOperationDialog.h \
+   $$PWD/ThreadedOperation/ThreadedOperation.h \
+   $$PWD/SystemUtils.h
 win32 {
 HEADERS += \
-   ./GlobalShortcut/GlobalShortcutManager.h \
-   ./GlobalShortcut/GlobalShortcut.h
+   $$PWD/GlobalShortcut/GlobalShortcutManager.h \
+   $$PWD/GlobalShortcut/GlobalShortcut.h
 }
 
-SOURCES +=  ./FileUtils.cpp \
-   ./Exception.cpp \
-   ./RandomNumberGenerator.cpp \
-   ./StringUtils.cpp \
-   ./StyleSheetEditor/StyleSheetEditor.cpp \
-   ./DebugLog/DebugLog.cpp \
-   ./DebugLog/DebugLogEntry.cpp \
-   ./DebugLog/DebugLogFilterProxyModel.cpp \
-   ./DebugLog/DebugLogWindow.cpp \
-   ./ThreadedOperation/ThreadedOperation.cpp \
-   ./ThreadedOperation/ThreadedOperationDialog.cpp \
-   ./SystemUtils.cpp
+SOURCES +=  $$PWD/File/FileUtils.cpp \
+   $$PWD/Exception.cpp \
+   $$PWD/RandomNumberGenerator.cpp \
+   $$PWD/StringUtils.cpp \
+   $$PWD/StyleSheetEditor/StyleSheetEditor.cpp \
+   $$PWD/DebugLog/DebugLog.cpp \
+   $$PWD/DebugLog/DebugLogEntry.cpp \
+   $$PWD/DebugLog/DebugLogFilterProxyModel.cpp \
+   $$PWD/DebugLog/DebugLogWindow.cpp \
+   $$PWD/ThreadedOperation/ThreadedOperation.cpp \
+   $$PWD/ThreadedOperation/ThreadedOperationDialog.cpp \
+   $$PWD/SystemUtils.cpp
 win32 {
 SOURCES += \
-   ./GlobalShortcut/GlobalShortcut.cpp \
-   ./GlobalShortcut/GlobalShortcutManager.cpp
+   $$PWD/GlobalShortcut/GlobalShortcut.cpp \
+   $$PWD/GlobalShortcut/GlobalShortcutManager.cpp
 }
 
 
-FORMS += ./StyleSheetEditor/StyleSheetEditor.ui \
-   ./DebugLog/DebugLogWindow.ui \
-   ./ThreadedOperation/ThreadedOperationDialog.ui
-TRANSLATIONS += ./Translations/xmilib_fr.ts
+FORMS += $$PWD/StyleSheetEditor/StyleSheetEditor.ui \
+   $$PWD/DebugLog/DebugLogWindow.ui \
+   $$PWD/ThreadedOperation/ThreadedOperationDialog.ui
+TRANSLATIONS += $$PWD/Translations/xmilib_fr.ts
